@@ -1,8 +1,12 @@
-import React, { type FC, useState } from "react";
+import { type FC, useState } from "react";
 import { useSorobanReact } from "@soroban-react/core";
 import * as StellarSdk from "@stellar/stellar-sdk";
 import { useRegisteredContract } from "@soroban-react/contracts";
-import coinTossgif from "../assets/coin_toss.gif";
+// import coinTossgif from "../assets/coin_toss.gif";
+
+function hasReturnValue(result: any): result is { returnValue: StellarSdk.xdr.ScVal } {
+  return result && 'returnValue' in result;
+}
 
 export const TossContractInteractions: FC = () => {
   const sorobanContext = useSorobanReact();
@@ -33,7 +37,7 @@ export const TossContractInteractions: FC = () => {
             signAndSend: true,
           });
 
-          if (result) {
+          if (result && hasReturnValue(result)) {
             const result_val = StellarSdk.scValToNative(
               result.returnValue as StellarSdk.xdr.ScVal
             ) as string;
