@@ -2,7 +2,7 @@
 ![Logo](https://www.canva.com/design/DAGFlPv8ntM/LhD5NlRw88-TxQfDLBr96Q/edit?utm_content=DAGFlPv8ntM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-# Project Title
+# Project Title : GREEN ARROW
 
 Our project is a decentralized single-player game on the Stellar Blockchain. It benefits players, creators, and nature by integrating eco-friendly initiatives. Utilizing Stellar for its lightning-fast transactions and smooth developer experience, the game is built with Rust, ensuring high performance. Players enjoy an engaging gaming experience, while developers find the platform robust and efficient. A portion of in-game transactions supports environmental causes, making this project a win for everyone involved.
 
