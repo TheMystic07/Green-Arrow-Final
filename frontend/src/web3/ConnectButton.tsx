@@ -8,7 +8,7 @@ export const ConnectButton = () => {
   const browserWallets = sorobanContext.connectors;
   if (!activeAccount)
     return (
-      <div className="w-full p-4">
+      <div className="w-full p-4  absolute top-2 left-2  ">
         {!activeAccount && (
           <p className="text-white text-lg mb-2">Connect to a wallet</p>
         )}

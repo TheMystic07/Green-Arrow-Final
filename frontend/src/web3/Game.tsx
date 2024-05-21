@@ -9,5 +9,5 @@ export const Game = () => {
         codeUrl: "/Build/GreenArrow.wasm",
       });
     
-      return <Unity unityProvider={unityProvider}  className="w-[80vw]" />;
+      return <Unity unityProvider={unityProvider}  className="w-[70vw] rounded-2xl " />;
     }

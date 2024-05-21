@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="flex flex-col w-full h-[100vh] items-center justify-center  bg-[#393D48]">
         <h1 className="text-6xl font-bold text-green-600 m-4  text-center">Green Arrow</h1>
-        <ConnectButton />
+        <ConnectButton   />
         <div>
         <Game/>
           <TossContractInteractions />

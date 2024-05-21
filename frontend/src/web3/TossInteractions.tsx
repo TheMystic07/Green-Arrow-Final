@@ -60,7 +60,7 @@ export const TossContractInteractions: FC = () => {
   return (
     <>
       {address ? (
-        <div className="mt-10 flex w-full flex-wrap items-start justify-center gap-4">
+        <div className=" flex flex-wrap items-start justify-center   absolute top-2 right-2  ">
           {!fetchIsLoading ? (
             <div className="flex flex-col items-center">
               {tossResult && (
