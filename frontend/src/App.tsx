@@ -11,6 +11,9 @@ function App() {
         <ConnectButton   />
         <div>
         <Game/>
+        <h2 className="text-4xl font-bold text-white m-4  text-center">PLEASE  WAIT 1-2 MINUTES TO GAME TO LOAD </h2>
+        <h2 className="text-4xl font-bold text-white m-4  text-center">CONTROLS : WASD TO MOVE AND 'R'  TO PLANT   SMALL TREE  |  'T' TO PLANT LARGE TREE</h2>
+        
           <TossContractInteractions />
         </div>
       </div>
